@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f946a1a9-e205-4368-83d3-64e7e68b11c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/__tests__/flying-vehicle-class.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/flying-vehicle-class.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/__test__/list.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/list/__test__/list.test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -57,8 +54,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/objects/__tests__/flying-vehicle-class.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-656">
-              <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="472">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/list/__test__/list.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="89">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -82,15 +88,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/objects/flying-vehicle-factory.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/objects/vehicle-class.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="568">
@@ -99,7 +96,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/objects/flying-vehicle-class.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="521">
@@ -145,6 +142,7 @@
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/objects/__tests__/flying-vehicle-class.test.js" />
         <option value="$PROJECT_DIR$/objects/flying-vehicle-class.js" />
+        <option value="$PROJECT_DIR$/list/__test__/list.test.js" />
       </list>
     </option>
   </component>
@@ -171,6 +169,17 @@
             <path>
               <item name="401n12-lab2" type="b2602c69:ProjectViewProjectNode" />
               <item name="401n12-lab2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="401n12-lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="401n12-lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="401n12-lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="401n12-lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
+              <item name="__test__" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="401n12-lab2" type="b2602c69:ProjectViewProjectNode" />
@@ -226,12 +235,12 @@
       <updated>1550194653641</updated>
       <workItem from="1550194655395" duration="13341000" />
       <workItem from="1550213002672" duration="277000" />
-      <workItem from="1550261438223" duration="2567000" />
+      <workItem from="1550261438223" duration="2869000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16185000" />
+    <option name="totallyTimeSpent" value="16487000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="360" y="41" width="1451" height="979" extended-state="0" />
@@ -354,13 +363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/objects/__tests__/flying-vehicle-class.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-656">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/objects/__tests__/vehicle-factory.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="590">
@@ -379,6 +381,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
           <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/objects/__tests__/flying-vehicle-class.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/__test__/list.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
