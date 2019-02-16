@@ -43,5 +43,17 @@ describe('List Data Structure', () => {
     expect(stuff.unshift('a')).toEqual(3);
     expect(stuff.data[0]).toEqual('a');
   });
+
+  it('executes a given function on each element', () => {
+    let stuff = new List();
+    stuff.push(1);
+    stuff.push(2);
+    function add(num) {
+      return num +1;
+    }
+    stuff.forEach(add);
+
+    expect(stuff.data).toEqual({0:2, 1:3});
+  });
 });
 

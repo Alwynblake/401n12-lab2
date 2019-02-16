@@ -28,7 +28,7 @@ List.prototype.shift = function() {
   let returnValue = this.data[0];
   delete this.data[0];
   this.length--;
-  for(let i=0;i< this.length; i++){
+  for(let i=0;i < this.length; i++){
     this.data[i] = this.data[i + 1];
   }
   delete this.data[length + 1];
@@ -45,5 +45,11 @@ List.prototype.unshift = function(item) {
   //return the new length
   this.length++;
   return this.length;
+}
+
+List.prototype.forEach = function(fn) {
+  for(let i = 0; i < this.length; i++) {
+    this.data[i] = fn(this.data[i]);
+  }
 }
 module.exports = List;
