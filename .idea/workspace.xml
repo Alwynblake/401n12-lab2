@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f946a1a9-e205-4368-83d3-64e7e68b11c0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/list/__test__/list.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/list/__test__/list.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,20 +60,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list/__test__/list.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="329">
+              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -139,10 +139,10 @@
         <option value="$PROJECT_DIR$/objects/flying-vehicle-factory.js" />
         <option value="$PROJECT_DIR$/objects/__tests__/flying-vehicle-class.js" />
         <option value="$PROJECT_DIR$/objects/__tests__/flyng-vehicle-class.js" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/objects/__tests__/flying-vehicle-class.test.js" />
         <option value="$PROJECT_DIR$/objects/flying-vehicle-class.js" />
         <option value="$PROJECT_DIR$/list/__test__/list.test.js" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -235,12 +235,12 @@
       <updated>1550194653641</updated>
       <workItem from="1550194655395" duration="13341000" />
       <workItem from="1550213002672" duration="277000" />
-      <workItem from="1550261438223" duration="2869000" />
+      <workItem from="1550261438223" duration="3135000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16487000" />
+    <option name="totallyTimeSpent" value="16753000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="360" y="41" width="1451" height="979" extended-state="0" />
@@ -342,13 +342,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/objects/vehicle-class.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="568">
@@ -393,8 +386,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/list/__test__/list.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="329">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
