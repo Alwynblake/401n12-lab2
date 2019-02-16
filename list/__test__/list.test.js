@@ -35,5 +35,13 @@ describe('List Data Structure', () => {
     expect(stuff.shift()).toEqual('a');
     expect(stuff.length).toEqual(1);
   });
+
+  it('unshift item into the front of the data set', () => {
+    let stuff = new List();
+    stuff.push('a');
+    stuff.push('b');
+    expect(stuff.unshift('a')).toEqual(3);
+    expect(stuff.data[0]).toEqual('a');
+  });
 });
 
