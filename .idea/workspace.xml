@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f946a1a9-e205-4368-83d3-64e7e68b11c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/objects/__tests__/seacreature-class.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/seacreature-class.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f946a1a9-e205-4368-83d3-64e7e68b11c0" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -262,16 +258,15 @@
       <updated>1550194653641</updated>
       <workItem from="1550194655395" duration="13341000" />
       <workItem from="1550213002672" duration="277000" />
-      <workItem from="1550261438223" duration="9764000" />
+      <workItem from="1550261438223" duration="9960000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23382000" />
+    <option name="totallyTimeSpent" value="23578000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="23" width="1451" height="979" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24965034" />
