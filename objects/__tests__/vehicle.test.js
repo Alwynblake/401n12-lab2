@@ -42,7 +42,7 @@ describe('Vehicles', () => {
       expect(motorcycle.stop()).toBeTruthy();
     });
 
-    it('cannot do a wheelie', () => {
+    it('can do a wheelie', () => {
       expect(motorcycle.wheelie()).toBeTruthy();
     });
 
