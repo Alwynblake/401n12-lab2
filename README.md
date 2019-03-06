@@ -1,5 +1,6 @@
 # 401n12-lab2
-lab2
+[![Build Status](https://travis-ci.com/Alwynblake/401n12-lab2.svg?branch=master)](https://travis-ci.com/Alwynblake/401n12-lab2)
+
 # LAB: Classes, Inheritance, Functional Programming
 
 ### Before you begin
