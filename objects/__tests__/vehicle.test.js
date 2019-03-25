@@ -28,7 +28,7 @@ describe('Vehicles', () => {
 
   describe('Motorcycle', () => {
 
-    let motorcycle = new Vehicle.Motorcycle('foo');
+    const motorcycle = new Vehicle.Motorcycle('foo');
 
     it('has 2 wheels', () => {
       expect(motorcycle.wheels).toEqual(2);
@@ -45,7 +45,5 @@ describe('Vehicles', () => {
     it('can do a wheelie', () => {
       expect(motorcycle.wheelie()).toBeTruthy();
     });
-
   });
-
 });

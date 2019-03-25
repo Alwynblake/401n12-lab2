@@ -4,49 +4,43 @@
 const Vehicle = require('../vehicle-class.js');
 
 describe('Vehicles', () => {
+  describe('Car', () => {
+    const car = new Vehicle.Car();
 
-    describe('Car', () => {
-
-        let car = new Vehicle.Car();
-
-        it('has 4 wheels', () => {
-            expect(car.wheels).toEqual(4);
-        });
-
-        it('can drive', () => {
-            expect(car.drive()).toBeTruthy();
-        });
-
-        it('can stop', () => {
-            expect(car.stop()).toBeTruthy();
-        });
-
-        it('cannot do a wheelie', () => {
-            expect(car.wheelie).toBeUndefined();
-        });
-
+    it('has 4 wheels', () => {
+      expect(car.wheels).toEqual(4);
     });
 
-    describe('Motorcycle', () => {
-
-        let motorcycle = new Vehicle.Motorcycle('foo');
-
-        it('has 2 wheels', () => {
-            expect(motorcycle.wheels).toEqual(2);
-        });
-
-        it('can drive', () => {
-            expect(motorcycle.drive()).toBeTruthy();
-        });
-
-        it('can stop', () => {
-            expect(motorcycle.stop()).toBeTruthy();
-        });
-
-        it('can do a wheelie', () => {
-            expect(motorcycle.wheelie()).toBeTruthy();
-        });
-
+    it('can drive', () => {
+      expect(car.drive()).toBeTruthy();
     });
 
+    it('can stop', () => {
+      expect(car.stop()).toBeTruthy();
+    });
+
+    it('cannot do a wheelie', () => {
+      expect(car.wheelie).toBeUndefined();
+    });
+  });
+
+  describe('Motorcycle', () => {
+    const motorcycle = new Vehicle.Motorcycle('foo');
+
+    it('has 2 wheels', () => {
+      expect(motorcycle.wheels).toEqual(2);
+    });
+
+    it('can drive', () => {
+      expect(motorcycle.drive()).toBeTruthy();
+    });
+
+    it('can stop', () => {
+      expect(motorcycle.stop()).toBeTruthy();
+    });
+
+    it('can do a wheelie', () => {
+      expect(motorcycle.wheelie()).toBeTruthy();
+    });
+  });
 });
